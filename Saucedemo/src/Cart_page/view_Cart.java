@@ -21,7 +21,7 @@ public class view_Cart {
 		driver.findElement(By.name("user-name")).sendKeys("standard_user");
 		
 		driver.findElement(By.name("password")).sendKeys("secret_sauce");
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		
 		driver.findElement(By.name("login-button")).click();
 	}
