@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-06T22:21:29 IST" name="Default suite" finished-at="2024-02-06T22:21:47 IST" duration-ms="18391">
+    <groups>
+    </groups>
+    <test started-at="2024-02-06T22:21:29 IST" name="Default test" finished-at="2024-02-06T22:21:47 IST" duration-ms="18391">
+      <class name="Checkout_Page.details">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Checkout_Page.details@4d1bf319]" started-at="2024-02-06T22:21:29 IST" name="setup" finished-at="2024-02-06T22:21:38 IST" duration-ms="9703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCheckout(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Checkout_Page.details@4d1bf319]" started-at="2024-02-06T22:21:38 IST" name="testCheckout" data-provider="checkoutInfo" finished-at="2024-02-06T22:21:47 IST" duration-ms="8507" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Farhan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bijapure]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckout -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Checkout_Page.details@4d1bf319]" started-at="2024-02-06T22:21:47 IST" name="close" finished-at="2024-02-06T22:21:47 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Checkout_Page.details -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
